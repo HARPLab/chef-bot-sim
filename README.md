@@ -1,4 +1,4 @@
-# chef-bot-sim
+# Chef-Bot-Sim
 
 Restuarant simulation in VREP through the Python Remote API
 
@@ -26,21 +26,22 @@ Restuarant simulation in VREP through the Python Remote API
 
 1. Create a new project in your desired python IDE.
 
-2. Copy the files vrep.py, vrep.pyc, vrepConst.py, vrepConst.pyc and remoteApi.so from the folder vrep/scenes/Remote APi into the project folder
+2. Copy the files vrep.py, vrep.pyc, vrepConst.py, vrepConst.pyc, remoteApi.so and main.py from the folder vrep/scenes/Remote APi into the project folder
 
 # Restuarant Simulation:
- The restuarant simulation when run wil generate a randomized restuarant environment inside the VREP scene remotely from the python script. 
+ The restuarant simulation can now be run by running the main.py file and it will generate a randomized restuarant environment inside the VREP scene remotely from the python script. 
  
+ # Reference:
  Instructions about how the remote api works can be found here: http://www.coppeliarobotics.com/helpFiles/en/remoteApiOverview.htm
  
  The documentation for the python functions in the VREP library can be found here: http://www.coppeliarobotics.com/helpFiles/en/remoteApiFunctionsPython.htm
  
- #Features:
+ # Features:
  1. Generates Tables, chairs and utensils in randomized positions in the scene
  2. Populates the scene randomly with the required number of people
  3. Generates a robot and teleports it to a random position for testing
  
- #TODO:
+ # TODO:
  1. Add Behaviors such as waving and nodding (In Progress)
  2. Add facial expressions to visualize the mood of the consumers
  3. Markup the joints of the people with actual pose data from a restuarant
