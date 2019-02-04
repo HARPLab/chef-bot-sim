@@ -15,6 +15,8 @@ import time
 import math
 import random
 
+
+#edit this variable to the path of where the models folder is saved
 address = "/home/steelshot/PycharmProjects/Chef-Bot-Sim/models/"
 
 class Table(object):
