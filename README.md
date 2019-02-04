@@ -18,7 +18,7 @@ Restuarant simulation in VREP through the Python Remote API
 
 1. Create a new project in your desired python IDE.
 
-2. Copy the files vrep.py, vrep.pyc, vrepConst.py, vrepConst.pyc, remoteApi.so and main.py from the Restuarant Simulation form this git into the project folder
+2. Copy the files vrep.py, vrep.pyc, vrepConst.py, vrepConst.pyc, remoteApi.so, main.py and the models folder from the Restuarant Simulation folder from this git into the desired project folder
 
 # Restuarant Simulation:
  The restuarant simulation can now be run by running the main.py file and it will generate a randomized restuarant environment inside the VREP scene remotely from the python script. 
