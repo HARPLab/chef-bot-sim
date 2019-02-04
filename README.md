@@ -10,17 +10,9 @@ Restuarant simulation in VREP through the Python Remote API
 
 2. Open VREP from terminal by navigating to the installed folder and running the command `./vrep.sh`
 
-3. Create a new scene
+3. Open the scene remote Api.ttt from the folder scenes in the git and start the simulation
 
-4. Add a small cuboid to the scene by right clicking anywhere in the scene and then add -> primitive shape -> cuboid. Create the cuboid with the default settings
-
-5. Right click on the cuboid on the scene and add a threaded child script by add -> associated child script -> threaded
-
-6. Open the created script by double clicking the small page icon next to the cuboid in the scene hierachy
-
-7. Add the line `simRemoteApi.start(19999)` inside the function sysCall_threadmain
-
-8. The client side is now setup
+4. The scene is now setup
 
 ## Setting up Python Environment:
 
